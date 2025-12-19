@@ -13,7 +13,7 @@ import requests
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from config import PINECONE_API_KEY, PINECONE_ENVIRONMENT, PINECONE_INDEX_NAME
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "your API key"
 GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions"
 GROQ_MODEL = "groq/compound-mini"
 
